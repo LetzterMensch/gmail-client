@@ -1,0 +1,156 @@
+{
+    "id": "18622363adcf9bf8",
+    "threadId": "18622363adcf9bf8",
+    "labelIds": [
+        "UNREAD",
+        "SENT"
+    ],
+    "snippet": "Hello This is a test mail Remember you can only access your mail by creating a tok",
+    "payload": {
+        "partId": "",
+        "mimeType": "multipart/mixed",
+        "filename": "",
+        "headers": [
+            {
+                "name": "Bcc",
+                "value": "letrongnghiavanyen@gmail.com"
+            },
+            {
+                "name": "Return-Path",
+                "value": "<nghialt4635@gmail.com>"
+            },
+            {
+                "name": "Received",
+                "value": "from localhost ([1.54.176.244])        by smtp.gmail.com with ESMTPSA id gt21-20020a17090af2d500b0022c25153cf0sm4345932pjb.44.2023.02.05.07.33.10        for <letrongnghiavanyen@gmail.com>        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);        Sun, 05 Feb 2023 07:33:43 -0800 (PST)"
+            },
+            {
+                "name": "Message-ID",
+                "value": "<63dfcc57.170a0220.9621b.6836@mx.google.com>"
+            },
+            {
+                "name": "Date",
+                "value": "Sun, 05 Feb 2023 07:33:43 -0800 (PST)"
+            },
+            {
+                "name": "X-Google-Original-Date",
+                "value": "Sun , 05 Feb 2023 22:33:07"
+            },
+            {
+                "name": "X-Mailer",
+                "value": "Codevlog Test APP"
+            },
+            {
+                "name": "FROM",
+                "value": "Nghia <nghialt4635@gmail.com>"
+            },
+            {
+                "name": "Subject",
+                "value": "Hello"
+            },
+            {
+                "name": "MIME-Version",
+                "value": "1.0"
+            },
+            {
+                "name": "Content-type",
+                "value": "multipart/mixed; boundary=boundary"
+            }
+        ],
+        "body": {
+            "size": 0
+        },
+        "parts": [
+            {
+                "partId": "0",
+                "mimeType": "text/plain",
+                "filename": "",
+                "headers": [
+                    {
+                        "name": "Content-Type",
+                        "value": "text/plain"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "inline"
+                    }
+                ],
+                "body": {
+                    "size": 86,
+                    "data": "SGVsbG8NClRoaXMgaXMgYSB0ZXN0IG1haWwNClJlbWVtYmVyIHlvdSBjYW4gb25seSBhY2Nlc3MgeW91ciBtYWlsIGJ5IGNyZWF0aW5nIGEgdG9rDQo="
+                }
+            },
+            {
+                "partId": "1",
+                "mimeType": "image/jpeg",
+                "filename": "anh.jpg",
+                "headers": [
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg"
+                    },
+                    {
+                        "name": "Content-Transfer-Encoding",
+                        "value": "base64"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment; filename=anh.jpg"
+                    }
+                ],
+                "body": {
+                    "attachmentId": "ANGjdJ_lAnaVe4rVY-Rw34csMJwsGdbvBFX32OLqg8HVm4i4wI2FRjNmCHHSThb6CQZf-7twMHQRyOauXZz4GlIEvGUZrr4J6HJH0S8SoQJEJUYT82Vz6z-UGDPppD9dGbqG2QmnpebbzsjDzpf98podRvc6vgZThTB0euljnEaxJ45D69lv6hq6cra4j6Nuns8Yf-JUCf-slg5LpdQJB8W5pEufugomJJOU1uhDGYpWKrkldqGqjzCJj4-3gg6NySG84v2JUURP4CoTmT_tLDqJ2AVDTA94IVcNw78L-ZYz86dx_RynBTeO7ezDKl-oHAVCbY9qDC9p-nODquF-SBPLY_S4T4NEJudOt3F-P6QjMYIN5bcDLv2RtTFeGVCKKvo8fQMUuV4wX-4D-Fzg",
+                    "size": 111532
+                }
+            },
+            {
+                "partId": "2",
+                "mimeType": "audio/mpeg",
+                "filename": "audio.mp3",
+                "headers": [
+                    {
+                        "name": "Content-Type",
+                        "value": "audio/mpeg"
+                    },
+                    {
+                        "name": "Content-Transfer-Encoding",
+                        "value": "base64"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment; filename=audio.mp3"
+                    }
+                ],
+                "body": {
+                    "attachmentId": "ANGjdJ_nRCgFxPTWy9eqKNZq3gEOV0acnTQ3VpnDoqfJt715ZiAKuoN-7OKrGr9cpamVKN3VgMcQLqaTipkIBBwbBjPOqcrwGOHoIWFoAqJGD2iL2SuDsSb_n0KV0zauG0NjIRn1TzQ94142DAeXV87MNg6H1XjZdkdX8MZq0YuqMAn1VNxsa3xaNZNCMCgDBGrrMOet9zSzxADXA1eJ1VQpVeHvCIeZc1ZMoszRl3SwOflt6NhvpotW-Lq3QkZkZMeEB-YEO6N1VBJUSd44Usz9nXFdT3FQ0PalkpEWTMTDNhXAf3tG52aU791KwzmaDGQvH0M9zqhrBR2MmacxvgWiASnDzYcqX8M0bfhsFct3A413rk9qOh57x-9J-m8Mrh60mHwQeyNMJoBauPecuTOoSRP8Rq7lzb1Xophunw",
+                    "size": 753717
+                }
+            },
+            {
+                "partId": "3",
+                "mimeType": "video/mp4",
+                "filename": "video.mp4",
+                "headers": [
+                    {
+                        "name": "Content-Type",
+                        "value": "video/mp4"
+                    },
+                    {
+                        "name": "Content-Transfer-Encoding",
+                        "value": "base64"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment; filename=video.mp4"
+                    }
+                ],
+                "body": {
+                    "attachmentId": "ANGjdJ_ve9S_UG-pcenmsfa7E-gf3SvzD80vtyDQvJy-rvhlJN2tW9h13suiST1j9ApB7hECoiSsSVVLe-ceHObD-jEsHJ8nacBh86o1-NrawgK_K-96WeUJIq3Jd1LtfEZizrhAuqQ-h-U7qZqiH-cBP6AsUDyuKNh1ATI__seIFIXDbjCXg8DIYNlPd9of0wbKMeim0CfNDTAbXN-92cHODf3IWD97fM-eoJ9JK8L-B9MnodbfWSmmGex4ZatQBNYouN54j_5jLd7sZtiKoOYwxOpmJWKN_5ZBtMygsveLT2tXf7ZgiAef4Hs1A0f0sOtXAILCa46XdDG0EUOC5BjBYoPKQafw8v9UkpLL2vCnteSTAbiElhLkFfbs25ficeFXh9lhkszTy0dV6FP_Y5txe7JYuRSbIfAUcKyOaQ",
+                    "size": 6610779
+                }
+            }
+        ]
+    },
+    "sizeEstimate": 9969298,
+    "historyId": "2396",
+    "internalDate": "1675611223000"
+}
