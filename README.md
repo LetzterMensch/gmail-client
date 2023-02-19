@@ -1,17 +1,11 @@
 Hướng dẫn cài đặt và sử dụng phần mềm:
 Cài đặt thư viện của openSSL:
   linux: sudo apt-get install libssl-dev
-  window: idk :)
-1. Check File para.h example
-  1.1 Coppy file và tạo 1 file mới có tên "para.h"
-  1.2 Thay đổi các params theo hướng dẫn ở trong file
 
-2. Trong code hiện đang fix cứng 1 số đường dẫn đế file : imagePath, audioPath, videoPath
-  -> sửa lại đường dẫn để hoạt động đúng
-
-3. Compile:
- 3.1 Chạy lệnh "make main" để compile ( Yêu cầu cài thư viện make - ubuntu)
- 3.2 Chạy "./main" để chạy chương trình
+To send mails :
+Compile:
+ 1. Chạy lệnh "make main" để compile ( Yêu cầu cài thư viện make - ubuntu)
+ 2. Chạy "./main" để chạy chương trình
 
 Nếu kết quả có dạng như sau, chắc chắn đã thành công!
 
@@ -38,7 +32,9 @@ Encoded audio length: 3549985
 250 2.0.0 OK  1675329207 z6-20020a637e06000000b00496317241f9sm11072220pgc.51 - gsmtp
 221 2.0.0 closing connection z6-20020a637e06000000b00496317241f9sm11072220pgc.51 - gsmtp
 
-5. Để debug nếu gặp lỗi, chạy lệnh "gdb ./main"
+To read mails :
+1. Tạo app password :
+tham khảo tại: https://support.google.com/mail/answer/185833?hl=en
+2. Lấy access token cho gmail api :
+tham khảo tại: https://blog.vietnamlab.vn/su-dung-google-gmail-api-de-thao-tac-voi-mail/?fbclid=IwAR1MqELjr8958H62X-W_cjCk8giCj_P16ejNI5rMnAgVNeYYbNB1wvs0LdY
 
-Contract for more information: fb.com/viethung2209
-Thanks! <3
